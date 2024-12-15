@@ -13,7 +13,7 @@ import AddBlog from "./pages/addBlog/AddBlog"
 import { ToastContainer }  from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ContactUs from "./pages/contactUs/ContactUs"
-import Help from "./components/help/help"
+import Help from "./components/help/Help"
 
 
 const App = () => {
