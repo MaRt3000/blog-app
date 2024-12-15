@@ -2,7 +2,7 @@ import React from "react"
 
 import back from "../../assets/images/my-account.jpg"
 
-export const Regsiter = () => {
+export const Register = () => {
   return (
     <>
       <section className='login'>

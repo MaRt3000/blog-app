@@ -3,7 +3,7 @@ import { Footer } from "./components/footer/Footer"
 import { Header } from "./components/header/Header"
 import { Home } from "./pages/home/Home"
 import { Login } from "./pages/login/Login"
-import { Regsiter } from "./pages/login/Regsiter"
+import { Register } from "./pages/login/Register"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
@@ -12,7 +12,7 @@ import AboutPage from "./pages/about/AboutPage"
 import AddBlog from "./pages/addBlog/AddBlog"
 import { ToastContainer }  from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ContactUs from "./pages/contactUs/contactUs"
+import ContactUs from "./pages/contactUs/ContactUs"
 import Help from "./components/help/help"
 
 
@@ -32,7 +32,7 @@ const App = () => {
             </Route>
 
         
-          <Route  path='/register' element={<Regsiter />} />
+          <Route  path='/register' element={<Register />} />
           <Route  path='/details/:id' element={<DetailsPages />} />
           <Route  path='/account' element={<Account />} />
           
