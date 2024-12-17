@@ -118,6 +118,13 @@ export const DetailsPages = () => {
                 <p className="text-gray-600 leading-relaxed">
                   Author: <span className="font-medium text-gray-800">MaRt</span>
                 </p>
+                 {/* Back Home Button */}
+        <button
+          onClick={() => navigate("/")}
+          className="mt-6 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        >
+          Back To Home
+        </button>
               </div>
             </div>
           </div>
